@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<link rel="stylesheet" href="homepage.css">
+	<script type="text/javascript" src="javas.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div id="payment">
+	<p style="font-weight: bold;font-size: 30px;padding-left: 200px;">PAYMENT</p>
+	<p style="font-size: 20px;padding-left:70px;font-weight: bold;margin-top: -20px;">Card Number*:<input type="text" name="cardno" id="cardno" placeholder="XXXX-XXXX-XXXX-XXXX" class="calendar" style="margin-left: 63px;padding: 5px 2px;"></p><br>
+	<p style="font-size: 20px;padding-left:70px;font-weight: bold;margin-top: -20px;">CVV Number*:<input type="password" name="cvv" id="cvv" placeholder="XXX" class="calendar" style="margin-left: 63px;padding: 5px 2px;"></p><br>
+	<p style="font-size: 20px;padding-left:70px;font-weight: bold;margin-top: -20px;">Name*:<input type="text" name="name" id="name" placeholder="Card Holder Name" class="calendar" style="margin-left: 130px;padding: 5px 2px;"></p>
+	<p style="font-size: 20px;margin-top: 30px; padding-left:70px;font-weight: bold;">Expiry Date*:</p>
+	<input type="month" id="calendar2" class="calendar" name="calendar" min="2018-03" style="width: 154px;margin-left: 45px;padding: 5px 2px;">
+	<button id="p01" class="p01" style="margin-left: 200px;padding: 10px 20px;margin-top: 10px;" onclick="payment()">Make Payment</button>
+</div>
+</body>
+</html>

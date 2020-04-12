@@ -1,0 +1,259 @@
+body{
+   background-image:url("background1.jpg");
+   background-size:100% 100%;
+   background-attachment:fixed;
+  overflow:hidden;
+}
+#about{
+  position: relative;
+  background: rgba(255,255,255,0.7);
+  width: 1000px;
+  left:250px;
+  height: 450px;
+  border-radius: 30px;
+}
+#payment{
+  position: relative;
+  background: rgba(255,255,255,0.5);
+  width: 600px;
+  left:400px;
+  top:100px;
+  border-radius: 30px;
+  height: 450px;
+}
+#calendar{
+  position: relative;
+  left:220px;
+  top:-35px;
+  border-radius:15px;
+  size: 80px;
+
+}
+#calendar2{
+  position: relative;
+  left:220px;
+  top:-35px;
+  border-radius:15px;
+  size: 80px;
+
+}
+.calendar{
+  padding-left: 10px;
+}
+#book-div{
+   background: rgba(255,255,255,0.5);
+   width: 680px;
+  position: relative;
+  height: 700px;
+  top:-20px;
+  border-radius: 30px;
+  padding-left: 270px;
+}
+#cancel-div{
+   background: rgba(255,255,255,0.5);
+  position: relative;
+  margin-left: 1000px;
+  top:-750px;
+  height: 700px;
+  border-radius:30px;
+}
+#admin-panel{
+  position: relative;
+  top:-80px;
+  left:200px;
+  width: 800px;
+  margin:150px;
+  background: rgba(255,255,255,0.5);
+  height: 600px;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+#add-admin{
+  background: transparent;
+  position: relative;
+  width:600px;
+  left:180px;
+  top:-170px;
+  height: 500px;
+  border-radius: 30px;
+  align-content: center;
+  padding-top: 20px;
+}
+.p04{
+text-align: center;
+cursor: pointer;
+position:relative;
+left:20px;
+padding:5px 10px;
+text-align:center;
+margin-right:100px;
+border-radius:30px;
+background:linear-gradient(to right,#076284,#5FFDFC);
+}
+#p04{
+  position: relative;
+  left:40px;
+}
+#p05{
+  position: relative;
+  left:30px;
+}
+
+.toggle-btn{
+    padding:10px 20px;
+	cursor:pointer;
+	background:transparent;
+border:0;
+outline:none;
+position:relative;
+}
+.button-box{
+width:200px;
+margin:20px 0px;
+position:relative;
+box_shadow:0 0 20px 9px #5FFDFC;
+border-radius:30px;
+}
+#submit-btn{
+width:110px;
+padding:10px 20px;
+cursor:pointer;
+display:block;
+margin:0px;
+position:relative;
+left:25px;
+background:linear-gradient(to right,#076284,#5FFDFC);
+border:0;
+outline:none;
+border-radius:30px;}
+.submit-btn{
+width:80px;
+padding:10px 20px;
+cursor:pointer;
+display:block;
+margin:0px;
+position:relative;
+left:40px;
+background:linear-gradient(to right,#076284,#5FFDFC);
+border:0;
+outline:none;
+border-radius: 30px;}
+.input-field{
+width:70%;
+background:white;
+color:black;
+font-weight:bold;
+padding:10px 10px;
+position: relative;
+left:-10px;
+margin:5px;
+border-left:0;
+border-top:0;
+border-right:0;
+border-bottom:1px solid #999;}
+input[type=text] {
+  color:black;
+  border-radius:10px;
+}
+input[type=password] {
+  color:black;
+  border-radius:10px;
+}
+input[type=submit] {
+  color:black;
+  border-radius:10px;
+}
+input[type=submit]:hover{background-color:#27E2CE;}
+#div1{
+  background: rgba(255,255,255,0.5);
+  width: 200px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:100px;
+  padding-right:20px;
+  margin: 10px;
+border-radius:15px;
+}
+#div4{
+  background: rgba(255,255,255,0.5);
+  width: 200px;
+  position: relative;
+  top:-310px;
+  left: 400px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:100px;
+  padding-right:20px;
+  margin: 10px;
+  border-radius:15px;
+}
+#div3{
+  position:relative;
+  left:400px;
+  background: rgba(255,255,255,0.5);
+  width: 300px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:150px;
+  padding-right:20px;
+  margin: 100px;
+border-radius:15px;
+}
+#div2{
+position:absolute;
+top:-450px;
+font-size:20px;
+ background: rgba(255,255,255,0.5);
+  width:500px;
+left:400px;
+font-weight:bold;
+   height:500px;
+  padding-top:20px;
+  padding-bottom:5px;
+  padding-left:60px;
+  padding-right:40px;
+margin:500px;
+border-radius:15px;
+}
+#h1{
+color:white;
+font-size:50;
+}
+#p02{
+font-family:arial;
+   font-weight:bold;
+font-size:20px;}
+#p03{
+font-family:arial;
+   font-weight:bold;}
+.p01 {
+background:linear-gradient(to right,#076284,#5FFDFC);
+color:black;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:60px;
+padding-right:20px;
+margin-right:1000px;
+border-radius:15px;
+}
+#p01{
+  width:150px; 
+  padding: 5px 20px;
+  font-weight: bold; 
+}
+a{
+text-decoration:none;
+color:black;}
+.column {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+    

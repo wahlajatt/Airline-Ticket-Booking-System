@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Flight</title>
+	<link rel="stylesheet" href="homepage.css">
+	<script type="text/javascript" src="javas.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div id="admin-panel">
+	<div style="background:transparent;width:140px;">
+		<a href="admin panel.html"><button id="p01" class="p01">Add Admin</button></a><br><br>
+		<a href="modify flight.html"><button id="p01" class="p01">Modify Flight</button></a><br><br>
+		<a href="delete flight.html"><button id="p01" class="p01">Delete Flight</button></a><br><br>
+		<a href="index.html"><button id="p01" class="p01">Log Out</button></a><br><br>
+	<div id="add-admin">
+		<form id="admin" class="input-group">
+		<form action="/server_name.php">
+			<p class="p04" style="width: 100px;margin-left: 200px;">Add Flight</p>
+			<input style="margin-left: 80px;" class="input-field" type="text" id="company" name="company" placeholder="Name of the company"><br><br>
+			<input style="margin-left: 80px;" class="input-field" type="text" id="model" name="model" placeholder="Model of the Flight"><br><br>
+			<input style="margin-left: 80px;" class="input-field" type="text" id="idno" name="idno" placeholder="Id Number"><br><br>
+			<input style="margin-left: 80px;" class="input-field" type="text" id="source" name="source" placeholder="Source"><br><br>
+			<input style="margin-left: 80px;" class="input-field" type="text" id="capacity" name="capacity" placeholder="Capacity"><br><br>
+			<button style="margin-left: 205px;" id="p05" class="p04"  onclick="add_flight()">Add Flight</button><br><br>
+		</form>
+		
+	</div>
+	
+</div>
+</body>
+</html>

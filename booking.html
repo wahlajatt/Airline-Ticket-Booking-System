@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking</title>
+	<link rel="stylesheet" href="homepage.css">
+	<script type="text/javascript" src="javas.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div id="book-div">
+	<p style="padding: 10px 120px;font-size: 30px;font-weight: bold;">BOOKING</p>
+	<p style="padding-left:70px;font-weight: bold;">Date of the journey*:</p>
+	<input type="date" id="calendar" class="calendar" name="calendar" min="2018-03" value="2018-05" onchange="date()" style="width: 154px;">
+	<p style="padding-left:70px;font-weight: bold;margin-top: -20px;">First Name*:<input type="text" name="firstname" id="firstname" placeholder="First Name" class="calendar" style="margin-left: 63px;"></p>
+	<p style="padding-left:70px;font-weight: bold;">Middle Name:<input type="text" name="middlename" id="middlename" placeholder="Middle Name" class="calendar" style="margin-left: 53px;"></p>
+	<p style="padding-left:70px;font-weight: bold;">Last Name*:<input type="text" name="lastname" id="lastname" placeholder="Last Name" class="calendar" style="margin-left: 67px;"></p>
+	<p style="padding-left:70px;font-weight: bold;">Mobile*:<input type="text" name="mobile" id="mobile" placeholder="Mobile" class="calendar" style="margin-left: 95px;"></p>
+	<p style="padding-left:70px;font-weight: bold;">Age*:<input type="text" name="age" id="age" placeholder="Age(in years)" class="calendar" style="margin-left: 118px;"></p>
+	<p style="padding-left:70px;font-weight: bold;">E-mail:<input type="text" name="email" id="email" placeholder="E-mail" class="calendar" style="margin-left: 105px;"></p>
+	<p style="padding-left:70px;font-weight: bold;">From*:
+		<select id="source" class="calendar" style="margin-left: 107px;" selected="From" onchange="source()">
+			<option>From</option>
+			<option>Delhi</option>
+			<option>Mumbai</option>
+			<option>Amritsar</option>
+			<option>Nagpur</option>
+			<option>Lucknow</option>
+			<option>Hyderabad</option>
+			<option>Cochin</option>
+			<option>Kolkata</option>
+			<option>Shimla</option>
+			<option>Leh</option>
+			<option>Srinagar</option>
+			<option>Kangra</option>
+			<option>Mizoram</option>
+			<option>Banglore</option>
+			<option>Port Blair</option>
+			<option>Goa</option>
+			<option>Chennai</option>
+		</select>
+	</p>
+	<p style="padding-left:70px;font-weight: bold;">Destination*:
+		<select id="to" class="calendar" style="margin-left: 67px;" selected="Destination" onchange="destination()">
+			<option>Destination</option>
+			<option>Atlanta</option>
+			<option>Beijing</option>
+			<option>California</option>
+			<option>Dubai</option>
+			<option>London</option>
+			<option>Shanghai</option>
+			<option>France</option>
+			<option>Holland</option>
+			<option>New York</option>
+			<option>Torronto</option>
+			<option>Ontario</option>
+			<option>Los Angeles</option>
+			<option>Tokyo</option>
+			<option>Florida</option>
+			<option>Paris</option>
+			<option>Kuala Lumpur</option>
+			<option>Singapore</option>
+		</select>
+	</p>
+	<p style="padding-left:70px;font-weight: bold;">Coach*:
+		<select id="coach" class="calendar" style="margin-left: 100px;" selected="Coach" onchange="coach()">
+			<option>Coach</option>
+			<option>Economy</option>
+			<option>Premium Economy</option>
+			<option>Business</option>
+		</select>
+    </p>
+	<button id="p01" class="p01" style="margin-left: 140px;padding: 10px 20px;margin-top: 100px;" onclick="book()">Make Payment</button>
+</div>
+<div id="cancel-div">
+	<p style="padding: 10px 150px;font-size: 30px;font-weight: bold;">CANCELLATION</p>
+	<input style="margin-left: 90px;margin-top: 200px;" class="input-field" type="text" id="idno" name="idno" placeholder="CANCELLATION ID"><br><br>
+			<button style="margin-left: 190px;" id="p05" class="p04"  onclick="cancel()">Cancel Ticket</button><br><br>
+			<a href="index.html"><button style="margin-left: 140px;margin-top: 250px;width: 200px;" id="p05" class="p04">Log Out</button></a><br><br>
+</div>
+</body>
+</html>
